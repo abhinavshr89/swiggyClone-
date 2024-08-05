@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Header Styles */
+
+.header-icon-spacing {
+  @apply flex items-center gap-2 text-slate-600 hover:text-orange-400 text-[15px];
+}
+
+*{
+  font-family:'poppins';
+}
+.arrow-icon{
+  @apply p-3 rounded-full bg-arrowGray;
+}
+
+
+.content-spacing{
+  @apply px-[30px] pt-[30px] pb-[70px] lg:px-[200px] ;
+}
+
+.heading-spacing{
+  @apply font-bold text-[25px] ;
+}
