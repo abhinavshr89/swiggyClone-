@@ -1,15 +1,23 @@
 import React, { useState } from 'react';
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 import foodOne from "../../public/foodOne.avif";
+import us1 from "../../public/upperslider/us1.avif";
+import us2 from "../../public/upperslider/us2.avif";
+import us3 from "../../public/upperslider/us3.avif";
+import us4 from "../../public/upperslider/us4.avif";
+import us5 from "../../public/upperslider/us5.avif";
+import us6 from "../../public/upperslider/us6.avif";
+import us7 from "../../public/upperslider/us7.avif";
+import us8 from "../../public/upperslider/us8.avif";
+
+
 
 const WhatsOnMind = () => {
     const foodData = [
-        { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne },
-        { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne },
-        { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne },
-        { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne },
-        { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne },
-        { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne }, { id: 1, imageLink: foodOne },
+        { id: 1, imageLink: foodOne }, { id: 1, imageLink: us1 }, { id: 1, imageLink: us2 },
+        { id: 1, imageLink: us3 }, { id: 1, imageLink: us4 }, { id: 1, imageLink: us5 },
+        { id: 1, imageLink: us6 }, { id: 1, imageLink:us7 }, { id: 1, imageLink: us8 },
+      
        
     ];
 
